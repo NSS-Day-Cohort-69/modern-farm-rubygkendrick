@@ -13,10 +13,10 @@ import { harvestPlants } from "./harvester.js"
 const harvesting = harvestPlants(usePlantsCopy)
 
 
-console.log(harvesting)
-
 import { catalog } from "./catalog.js"
 const catalogForHtml = catalog(harvesting)
+
+
 const parentHTMLElement = document.querySelector(".container")
 parentHTMLElement.innerHTML = catalogForHtml
 

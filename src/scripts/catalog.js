@@ -8,10 +8,6 @@ The example has Corn hard-coded. Yours should not. It should output the name pro
 the current food object. */
 
 
-import { usePlants } from "./field.js"
-const usePlantsCopy = usePlants()
-
-
 export const catalog = (harvestedArray) => {
     let htmlString = ``
     for (const food of harvestedArray) {

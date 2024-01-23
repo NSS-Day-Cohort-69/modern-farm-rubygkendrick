@@ -2,9 +2,8 @@
 The harvestPlants function must accept the plants array as input.
 The function will return an array of seed objects.
 Iterate the array of growing plants. On each plant, get the value of the output property.
+unless its corn, and then print half of the output 
  */
-
-
 
 export const harvestPlants = (plantsArray) => {
     const seedObjectsArray = []
@@ -24,4 +23,4 @@ export const harvestPlants = (plantsArray) => {
     return seedObjectsArray
 }
 
-//for each plant , print that plant equal to the value of the output 
+//for each plant , print that plant the number of times that is equal to the value of the output property

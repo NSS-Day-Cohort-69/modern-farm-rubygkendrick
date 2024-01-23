@@ -1,3 +1,22 @@
+/* n this module, define and export a plantSeeds function.
+The function must accept the year's planting plan as input (i.e. it must define a parameter).
+The plan is an array. It contains 3 arrays representing the rows in the field to be plants. 
+Figure out how to iterate both the parent array and the child arrays.
+
+iterating the yearly plan array to single out each array
+
+iterating through the yearly plan array to single out the objects in each of its arrays 
+*/
+
+/*// Example growing plan. Actual plan is bigger.
+[
+    ["Potato", "Soybean", "Soybean", "Corn"],
+    ["Wheat", "Corn", "Wheat", "Asparagus"],
+    ["Asparagus", "Wheat", "Soybean", "Corn"],
+    ["Asparagus", "Soybean", "Potato", "Wheat"]
+] */
+
+
 import { createAsparagus } from "./seeds/asparagus.js"
 const asparagusSeed = createAsparagus()
 
@@ -18,34 +37,6 @@ const cornSeeds = createCorn()
 
 import { addPlant } from "./field.js"
 
-
-
-
-
-
-
-/* n this module, define and export a plantSeeds function.
-The function must accept the year's planting plan as input (i.e. it must define a parameter).
-The plan is an array. It contains 3 arrays representing the rows in the field to be plants. 
-Figure out how to iterate both the parent array and the child arrays.
-
-iterating the yearly plan array to single out each array
-
-iterating through the yearly plan array to single out the objects in each of its arrays 
-
-
-
-
-
-*/
-
-/*// Example growing plan. Actual plan is bigger.
-[
-    ["Potato", "Soybean", "Soybean", "Corn"],
-    ["Wheat", "Corn", "Wheat", "Asparagus"],
-    ["Asparagus", "Wheat", "Soybean", "Corn"],
-    ["Asparagus", "Soybean", "Potato", "Wheat"]
-] */
 
 export const plantSeeds = (yearlyPlan) => {
 

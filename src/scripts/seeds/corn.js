@@ -3,12 +3,12 @@
 
 export const createCorn = () => {
     const cornArray = [
-        {   name: "corn1",
+        {   
             type: "Corn",
             height: 180,
             output: 6,
         },
-        {   name: "corn2",
+        {   
             type: "Corn",
             height: 180,
             output: 6,
