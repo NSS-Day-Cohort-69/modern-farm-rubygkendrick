@@ -2,11 +2,13 @@
 import { createPlan } from "./plan.js"
 const yearlyPlan = createPlan()
 
-import { plantSeeds } from "./tractor.js"
-const tractorPlanting = plantSeeds(yearlyPlan)
 
 import { usePlants } from "./field.js"
 const usePlantsCopy = usePlants()
+
+
+import { plantSeeds } from "./tractor.js"
+plantSeeds(yearlyPlan)
 
 
 import { harvestPlants } from "./harvester.js"

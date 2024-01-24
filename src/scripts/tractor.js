@@ -16,7 +16,6 @@ iterating through the yearly plan array to single out the objects in each of its
     ["Asparagus", "Soybean", "Potato", "Wheat"]
 ] */
 
-
 import { createAsparagus } from "./seeds/asparagus.js"
 const asparagusSeed = createAsparagus()
 
@@ -65,7 +64,13 @@ export const plantSeeds = (yearlyPlan) => {
 }
 
 
+/* could I have done the following: 
 
+if (plant.includes("Potato" || "Corn" || "Wheat" || "Potato" || "Sunflower" || "Asparagus") {
+    addPlant(plant)
+}
+
+*/
 
 
 

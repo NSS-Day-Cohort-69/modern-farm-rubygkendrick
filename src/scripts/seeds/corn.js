@@ -18,3 +18,17 @@ export const createCorn = () => {
 
     return cornArray
 }
+
+
+
+const coinflip = () =>{
+    const randomnumber = Math.random()
+    
+    if (randomnumber < 0.5){
+        let result = "tails"
+    }
+    else {
+        let result = "heads"
+    }
+    return result
+}
